@@ -54,6 +54,7 @@ privileged aspect Pic_Roo_Finder {
         return q;
     }
     
+<<<<<<< HEAD
     public static TypedQuery<Pic> Pic.findPicsByTop3(String reversePrimer, String forwardPrimer, String referName) {
         StringBuilder hql = new StringBuilder("SELECT o FROM Pic AS o");
         StringBuilder andClause = new StringBuilder();
@@ -67,4 +68,6 @@ privileged aspect Pic_Roo_Finder {
         return q;
     }
     
+=======
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 }

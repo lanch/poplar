@@ -16,14 +16,24 @@ body {
 }
 
 #wrapper {
+<<<<<<< HEAD
 	width:800px;
 	min-width: 800px;
 	max-width: 800px;
+=======
+	width:905px;
+	min-width: 905px;
+	max-width: 905px;
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 	margin-right: auto;
 	margin-left: auto;
 
 	/* fix max-width incompatibility in IE6 */
+<<<<<<< HEAD
 	width:expression(document.body.clientWidth > 800? "800px": "auto" );
+=======
+	width:expression(document.body.clientWidth > 905? "905px": "auto" );
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 	
 	overflow:hidden;
 	display:block;
@@ -116,7 +126,11 @@ table.navigation {
 }
 
 label {
+<<<<<<< HEAD
 	width:120px;
+=======
+	width:240px;
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 	float:left;
 	margin-left: 5px;
 	margin-top: 0px;
@@ -377,4 +391,53 @@ fieldset th {
 .flag {
 	height: 11px;
 	width: 16px;
+<<<<<<< HEAD
+=======
+}
+
+.scaffold {
+    position: relative;
+    top: 15px;
+    display: inline;
+    float: left;
+}
+
+.scaffold_last {
+    position: relative;
+    top: 15px;
+    float: left;
+}
+
+.gene {
+    border: 1px solid #000;
+    height: 960px;
+    width: 10px;
+    background-color: #dedede;
+}
+
+.marker {
+    border-top: 1px solid #f00;
+    width: 9px;
+    height: 1px;
+    position: absolute;
+    cursor: pointer;
+    display: table-cell;
+}
+
+.number_label {
+    width: 1px;
+    border-top: 1px solid #000;
+    position: absolute;
+    padding-left: 12px;
+    font-size: 10px;
+    left: 12px;
+}
+
+#zoom_in {
+    cursor: pointer;
+}
+
+#zoom_out {
+    cursor: pointer;
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 }

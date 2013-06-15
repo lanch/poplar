@@ -3,8 +3,14 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:find finderName="ByTop3" label="pics" id="ff_cn_edu_pku_poplar_domain_Pic" path="/pics">
+<<<<<<< HEAD
         <field:input disableFormBinding="true" label="EST SSR ID" id="_referName" field="referName"/>
         <field:input disableFormBinding="true" label="forward primer" id="_forwardPrimer" field="forwardPrimer"/>
         <field:input disableFormBinding="true" label="reverse primer" id="_reversePrimer" field="reversePrimer"/>
+=======
+        <field:input disableFormBinding="true" label="EST SSR ID" id="_referName" field="referName" prompt="60423(only digitals in ID)"/>
+        <field:input disableFormBinding="true" label="Forward Primer" id="_forwardPrimer" field="forwardPrimer" prompt="AAAACTCTCCCTCCCTCACT"/>
+        <field:input disableFormBinding="true" label="Reverse Primer" id="_reversePrimer" field="reversePrimer" prompt="TGGTCTTAGAGAGATTGAAGAAA"/>
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
     </form:find>
 </div>

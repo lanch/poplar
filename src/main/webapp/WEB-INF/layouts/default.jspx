@@ -23,7 +23,11 @@
                 <tiles:insertAttribute name="body"/>
 		    </div>
             <div>
+<<<<<<< HEAD
                 <tiles:insertAttribute name="footer" ignore="true"/>
+=======
+                <tiles:insertAttribute name="footer" ignore="false"/>
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
             </div>
 		</div>
 	</body>

@@ -3,11 +3,17 @@
 
 package cn.edu.pku.poplar.web;
 
+<<<<<<< HEAD
 import cn.edu.pku.poplar.domain.SsrLocation;
 import cn.edu.pku.poplar.web.SsrLocationController;
 import java.io.UnsupportedEncodingException;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+=======
+import cn.edu.pku.poplar.domain.Pic;
+import cn.edu.pku.poplar.domain.SsrLocation;
+import cn.edu.pku.poplar.domain.Transferbility;
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +23,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.util.UriUtils;
 import org.springframework.web.util.WebUtils;
 
+<<<<<<< HEAD
+=======
+import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
+import java.io.UnsupportedEncodingException;
+
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
 privileged aspect SsrLocationController_Roo_Controller {
     
     @RequestMapping(method = RequestMethod.POST, produces = "text/html")
@@ -38,7 +51,28 @@ privileged aspect SsrLocationController_Roo_Controller {
     
     @RequestMapping(value = "/{id}", produces = "text/html")
     public String SsrLocationController.show(@PathVariable("id") Long id, Model uiModel) {
+<<<<<<< HEAD
         uiModel.addAttribute("ssrlocation", SsrLocation.findSsrLocation(id));
+=======
+        SsrLocation ssrLocation = SsrLocation.findSsrLocation(id);
+        uiModel.addAttribute("ssrlocation", ssrLocation);
+        try{
+            uiModel.addAttribute("pic", Pic.findPicsByReferNameLike(ssrLocation.getUniGeneId()).getSingleResult());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        try{
+            Transferbility transferbility =  Transferbility.findTransferbilitysByReferNameEquals(ssrLocation.getUniGeneId()).getSingleResult();
+            if(transferbility == null) {
+
+            } else {
+                uiModel.addAttribute("transferId", transferbility.getId());
+            }
+        } catch (Exception  e) {
+            e.printStackTrace();
+        }
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
         uiModel.addAttribute("itemId", id);
         return "ssrlocations/show";
     }

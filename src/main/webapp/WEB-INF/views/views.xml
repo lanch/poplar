@@ -6,7 +6,11 @@
 <tiles-definitions>
 
   <definition name="index" extends="default">
+<<<<<<< HEAD
     <put-attribute name="body" value="/WEB-INF/views/index.jspx" />
+=======
+    <put-attribute name="body" value="/WEB-INF/views/help.jspx" />
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
   </definition>
 
   <definition name="dataAccessFailure" extends="public">

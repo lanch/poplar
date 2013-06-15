@@ -12,5 +12,9 @@
         <field:input field="he" id="c_cn_edu_pku_poplar_domain_Pic_he" z="ZE8XCeZ35tc6ute11ULYG+igU48="/>
         <field:input field="na" id="c_cn_edu_pku_poplar_domain_Pic_na" z="Ar4YnglxILC4rDVDzfn+tBY1fF4="/>
         <field:input field="alleleSizeRange" id="c_cn_edu_pku_poplar_domain_Pic_alleleSizeRange" z="yBck+WkuqhkBKU7Bkb7pOl7N9Wo="/>
+<<<<<<< HEAD
+=======
+        <field:input field="isTested" id="c_cn_edu_pku_poplar_domain_Pic_isTested" z="+jxNQqx6RdXV/NbAkuts+InqQMg="/>
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
     </form:update>
 </div>

@@ -3,10 +3,18 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <menu:menu id="_menu">
+<<<<<<< HEAD
         <menu:item id="i_home" label="Home" url="/"/>
         <menu:item id="i_search" label="Search" url="/search?form"/>
         <menu:item id="i_blast" label="Blast" url="/blast"/>
         <menu:item id="i_brower" label="Brower" url="/brower"/>
         <menu:item id="i_info" label="Info" url="/info"/>
+=======
+        <menu:item id="i_home" label="Home" url="/resources/static_page/index.html"/>
+        <menu:item id="i_search" label="Search" url="/search?form"/>
+        <menu:item id="i_blast" label="Blast" url="/blast"/>
+        <menu:item id="i_brower" label="Brower" url="/brower"/>
+        <menu:item id="i_help" label="Help" url="/"/>
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
     </menu:menu>
 </div>

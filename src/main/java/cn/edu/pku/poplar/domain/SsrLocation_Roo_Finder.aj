@@ -23,6 +23,7 @@ privileged aspect SsrLocation_Roo_Finder {
         q.setParameter("uniGeneId", uniGeneId);
         return q;
     }
+<<<<<<< HEAD
 
     public static TypedQuery<SsrLocation> SsrLocation.findSsrLocationsByBean(SsrLocation ssrLocation) {
         if(ssrLocation == null) {
@@ -56,5 +57,7 @@ privileged aspect SsrLocation_Roo_Finder {
             return " and " + fieldName + " = '" + filedValue + "'";
         }
     }
+=======
+>>>>>>> 7e13a5296e3f891cd6e1c3f6d7ed7596e61ab9fe
     
 }
