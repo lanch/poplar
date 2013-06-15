@@ -1,0 +1,34 @@
+<aspectj>
+<aspects>
+<aspect name="cn.edu.pku.poplar.domain.PeEst_Roo_Jpa_Entity"/>
+<aspect name="cn.edu.pku.poplar.web.SsrLocationController_Roo_Controller_Finder"/>
+<aspect name="cn.edu.pku.poplar.domain.Pic_Roo_Finder"/>
+<aspect name="cn.edu.pku.poplar.web.SsrLocationController_Roo_Controller"/>
+<aspect name="cn.edu.pku.poplar.domain.PeEst_Roo_JavaBean"/>
+<aspect name="cn.edu.pku.poplar.web.PicController_Roo_Controller"/>
+<aspect name="cn.edu.pku.poplar.domain.EstSeq_Roo_Jpa_ActiveRecord"/>
+<aspect name="cn.edu.pku.poplar.domain.Pic_Roo_JavaBean"/>
+<aspect name="cn.edu.pku.poplar.domain.EstSeq_Roo_ToString"/>
+<aspect name="cn.edu.pku.poplar.domain.EstSeq_Roo_Jpa_Entity"/>
+<aspect name="cn.edu.pku.poplar.domain.Pic_Roo_Jpa_ActiveRecord"/>
+<aspect name="cn.edu.pku.poplar.domain.SsrLocation_Roo_JavaBean"/>
+<aspect name="cn.edu.pku.poplar.web.EstSeqController_Roo_Controller"/>
+<aspect name="cn.edu.pku.poplar.web.PeEstController_Roo_Controller"/>
+<aspect name="cn.edu.pku.poplar.domain.Pic_Roo_Jpa_Entity"/>
+<aspect name="cn.edu.pku.poplar.domain.EstSeq_Roo_Configurable"/>
+<aspect name="cn.edu.pku.poplar.domain.SsrLocation_Roo_Finder"/>
+<aspect name="cn.edu.pku.poplar.domain.Pic_Roo_Configurable"/>
+<aspect name="cn.edu.pku.poplar.domain.PeEst_Roo_ToString"/>
+<aspect name="cn.edu.pku.poplar.domain.SsrLocation_Roo_Configurable"/>
+<aspect name="cn.edu.pku.poplar.web.PicController_Roo_Controller_Finder"/>
+<aspect name="cn.edu.pku.poplar.domain.SsrLocation_Roo_Jpa_ActiveRecord"/>
+<aspect name="cn.edu.pku.poplar.domain.EstSeq_Roo_JavaBean"/>
+<aspect name="cn.edu.pku.poplar.domain.PeEst_Roo_Jpa_ActiveRecord"/>
+<aspect name="cn.edu.pku.poplar.domain.Pic_Roo_ToString"/>
+<aspect name="cn.edu.pku.poplar.domain.SsrLocation_Roo_Jpa_Entity"/>
+<aspect name="cn.edu.pku.poplar.domain.PeEst_Roo_Configurable"/>
+<aspect name="cn.edu.pku.poplar.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="cn.edu.pku.poplar.domain.SsrLocation_Roo_ToString"/>
+</aspects>
+</aspectj>
+
